@@ -4,18 +4,16 @@
     "description": "A Terraform/CX as Code remote module for the following Genesys Cloud public API operation: Get User Presence",
     "origin": "genesys",
     "type": "module",
-    "classification": "",
-    "tags": [],
+    "classification": "Presence",
+    "tags": ["Presence"],
     "permissions": [],
-    "products": [
-        "Quality Assurance and Compliance"
-    ],
+    "products": [],
     "documentation": [],
     "presentation": [
         {
             "title": "Page 1",
             "description": "Please enter the fields below",
-            "fields": []
+            "fields": ["action_name", "action_category", "integration_id"]
         }
     ]
 }
